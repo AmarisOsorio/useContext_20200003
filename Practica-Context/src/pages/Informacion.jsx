@@ -15,11 +15,11 @@ const Information = () => (
     <h2>Ejemplo básico</h2>
     <pre>
       <code>{`
-const MyContext = React.createContext();
-function MyComponent() {
-  const value = useContext(MyContext);
-  return <div>{value}</div>;
-}
+              const MyContext = React.createContext();
+              function MyComponent() {
+              const value = useContext(MyContext);
+              return <div>{value}</div>;
+              }
       `}</code>
     </pre>
     <p>
